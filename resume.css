@@ -1,0 +1,166 @@
+.resume-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-top h2,
+.resume-top h3 {
+  font-weight: 700;
+}
+
+#resume p {
+  font-size: 18px;
+}
+
+.left {
+  margin: 2% 0;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 3%;
+  text-align: center;
+  flex: 0 1 38%;
+}
+
+.right {
+  margin: 2% 4%;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 4%;
+  text-align: center;
+  flex: 0 1 38%;
+}
+
+.right span {
+  font-size: 20px;
+}
+
+.resume-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-bottom h3 {
+  font-size: 1.3rem;
+}
+
+.soft {
+  margin: 0 1%;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2%;
+  text-align: center;
+  flex: 0 1 35%;
+}
+
+.skills {
+  font-weight: 700;
+}
+
+.tech {
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2%;
+  text-align: center;
+  flex: 0 1 35%;
+}
+
+.tech-skills {
+  padding-bottom: 1%;
+  font-weight: 700;
+}
+
+.tech h3 {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.html-icon {
+  align-self: flex-start;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.html {
+  padding-bottom: 1%;
+}
+
+.css-icon {
+  align-self: flex-start;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.css {
+  padding-bottom: 1%;
+}
+
+.java-icon {
+  align-self: flex-start;
+  margin-top: 2%;
+}
+
+.java {
+  padding-bottom: 1%;
+}
+
+.python-icon {
+  align-self: flex-start;
+  margin-top: 2%;
+}
+
+.year0 {
+  margin-top: 4%;
+}
+
+.year1 {
+  margin-top: 4%;
+}
+
+.year2 {
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 400px) {
+  .soft,
+  .tech {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 2%;
+    padding: 2% 5%;
+  }
+}
