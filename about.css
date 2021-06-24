@@ -11,7 +11,7 @@
   height: 11vw;
   width: 11vw;
   border-radius: 50%;
-  margin-right: 4%;
+  margin-right: 3%;
   min-width: 191px;
   min-height: 191px;
 }
@@ -34,8 +34,7 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   height: 100%;
-  width: 60vw;
-  min-width: 280px;
+  width: 63%;
 }
 
 .general h2 {
@@ -197,12 +196,19 @@
 }
 
 @media screen and (max-width: 400px) {
+  .general {
+    width: 317px;
+  }
   .about-header {
     margin: 2% 10% auto;
   }
 
   .fun {
     margin: 2% 38px auto;
+  }
+
+  #testimonial-section {
+    padding: 1%;
   }
 }
 
