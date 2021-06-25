@@ -90,6 +90,28 @@ let projects = [
     githubURL: "https://github.com/Zoe8888/bmi-calculator",
     liveProjectURL: "https://replit.com/@Zoe8888/bmi-calculator#main.py",
   },
+  // Card 9
+  {
+    imgURL: "images/currency-convertor-py.png",
+    imgALT: "Currency Convertor",
+    title: "Currency Convertor",
+    techStack: "Python",
+    description:
+      "A PyCharm program that takes any currency the user desires and converts it into US Dollars.",
+    githubURL: "https://github.com/Zoe8888/currency-converter",
+    liveProjectURL: "https://replit.com/@Zoe8888/currency-converter#main.py",
+  },
+  // Card 10
+  {
+    imgURL: "images/js-calculator.png",
+    imgALT: "JavaScript Calculator",
+    title: "Left Hand Calculator",
+    techStack: "JavaScript",
+    description:
+      "A calculator developed for left-handed people to make for a more convenient user experience.",
+    githubURL: "https://github.com/Zoe8888/js-calculator",
+    liveProjectURL: "https://dazzling-easley-d97419.netlify.app",
+  },
 ];
 
 function createCard(card) {
