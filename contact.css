@@ -164,6 +164,22 @@ label {
   margin-right: 2%;
 }
 
+@media screen and (max-width: 1600px) {
+  .contact-form {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .call h2 {
+    font-size: 1.3rem;
+  }
+
+  .contact-form {
+    width: 35vw;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .contact-container {
     display: flex;
