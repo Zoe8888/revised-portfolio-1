@@ -43,7 +43,7 @@
   font-size: 1.3rem;
 }
 
-.about-header {
+.about-section {
   flex-direction: column;
   background: rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(13.5px);
@@ -61,7 +61,7 @@
   padding: 2%;
 }
 
-.about-header h2 {
+.about-section h2 {
   font-weight: 700;
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
   margin-bottom: 1%;
 }
 
-.about-header p {
+.about-section p {
   font-size: 1.1rem;
   padding-left: 1%;
   padding-right: 1%;
@@ -195,9 +195,61 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1052px) {
+  .fun {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fact-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 912px) {
   .general {
-    width: 317px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .general-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .general {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    width: 80vw;
+  }
+
+  .about-section,
+  .fun {
+    margin: 2% 10% auto;
+  }
+
+  .fact i {
+    margin: 10px;
+  }
+
+  #testimonial-section {
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testimonial {
+    grid-template-rows: 10% 1fr;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .general {
+    width: 286px;
   }
   .about-header {
     margin: 2% 10% auto;
@@ -208,42 +260,6 @@
   }
 
   #testimonial-section {
-    padding: 1%;
-  }
-}
-
-@media screen and (max-width: 806px) {
-  .general {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 2%;
-  }
-
-  .general-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #testimonial-section {
-    left: 49%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .testimonial {
-    grid-template-rows: 10% 1fr;
-  }
-}
-
-@media screen and (max-width: 1052px) {
-  .fun {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .fact-container {
-    flex-direction: column;
+    padding: 2%;
   }
 }

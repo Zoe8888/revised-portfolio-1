@@ -116,10 +116,9 @@
 }
 
 .button {
-  background: #a1d286;
   border-radius: 10px;
-  border: 1px solid rgb(90, 90, 90);
-  color: rgb(90, 90, 90);
+  background: #7da368;
+  color: rgba(255, 255, 255, 0.65);
   text-decoration: none;
   padding: 10px 20px;
   transition: 0.3s;
@@ -130,9 +129,10 @@
 
 .button:hover {
   font-size: 1rem;
-  background: #7da368;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgb(90, 90, 90);
+  background-color: rgba(255, 255, 255, 0.65);
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 .card-heading,

@@ -160,6 +160,27 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .resume-top,
+  .resume-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left,
+  .right,
+  .soft,
+  .tech {
+    display: flex;
+    align-self: center;
+    width: 80vw;
+  }
+
+  .soft {
+    margin-bottom: 2%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .left,
   .right {

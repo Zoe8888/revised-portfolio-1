@@ -23,6 +23,7 @@
   transition: all 0.3s linear;
   z-index: 999;
   backdrop-filter: blur(100px);
+  overflow-x: hidden;
 }
 
 .navbar-link a {
@@ -32,6 +33,7 @@
 
 .navbar-link a:hover {
   color: #a1d286;
+  transition: 0.2s ease-in;
 }
 
 .navbar-links.active {
@@ -59,9 +61,50 @@
   background: #a1d286;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
+  .navbar-links {
+    gap: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    gap: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-links {
+    gap: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-links {
+    gap: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .navbar-links.active {
     width: 100vw;
+  }
+
+  .navbar-links {
+    gap: 30px;
+    font-size: 20px;
   }
 
   .navbar-button {
@@ -76,5 +119,11 @@
 @media screen and (max-width: 913px) {
   .navbar-links.active {
     width: 100vw;
+  }
+
+  .navbar-links {
+    gap: 30px;
+    font-size: 20px;
+    overflow-x: hidden;
   }
 }

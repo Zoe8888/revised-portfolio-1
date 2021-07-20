@@ -19,6 +19,8 @@
 
 .call {
   display: flex;
+  gap: 10px;
+  margin-bottom: 10%;
 }
 
 .phone {
@@ -33,17 +35,13 @@
   margin-bottom: 10%;
 }
 
-.mail {
-  margin-bottom: 20%;
-  width: 30vw;
-}
 .num a,
-.mail a {
+.email {
   color: rgb(90, 90, 90);
 }
 
 .num a:hover,
-.mail a:hover {
+.email:hover {
   text-decoration: none;
   color: white;
 }
@@ -154,6 +152,7 @@ label {
 
 .footer-icons a:hover {
   color: #a1d286;
+  transition: 0.3s ease-in-out;
 }
 
 .link {
@@ -204,6 +203,12 @@ label {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .call h2 {
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .contact-container {
     display: flex;
@@ -242,17 +247,41 @@ label {
   }
 }
 
+@media screen (max-width: 768px) {
+  margin-bottom: 3%;
+}
+
 @media screen (max-width: 600px) {
   .footer {
     width: 90%;
   }
+
   .footer-name {
     width: 100%;
     margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
+  .call {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .call {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .call {
+    display: flex;
+    flex-direction: column;
+  }
+
   .footer {
     display: flex;
     flex-direction: row;
@@ -265,6 +294,6 @@ label {
 
   .footer-icons {
     top: 10%;
-    margin-right: 16%;
+    margin-right: 25%;
   }
 }

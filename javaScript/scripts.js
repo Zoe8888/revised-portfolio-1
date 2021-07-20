@@ -5,7 +5,7 @@ function toggleNavbar() {
 let projects = [
   // Card 1
   {
-    imgURL: "images/Contact Form.png",
+    imgURL: "/images/Contact Form.png",
     imgALT: "Glassmorphic contact form",
     title: "Contact Form",
     techStack: "HTML/CSS",
@@ -16,7 +16,7 @@ let projects = [
   },
   // Card 2
   {
-    imgURL: "images/Glassmorphic Timeline.png",
+    imgURL: "/images/Glassmorphic Timeline.png",
     imgALT: "Glassmorphic career timeline",
     title: "Glassmorhpic Timeline",
     techStack: "HTML/CSS",
@@ -26,7 +26,7 @@ let projects = [
   },
   // Card 3
   {
-    imgURL: "images/Owl Carousel.png",
+    imgURL: "/images/Owl Carousel.png",
     imgALT: "Testimonial slider",
     title: "Testimonial Slider",
     techStack: "HTML/CSS",
@@ -37,7 +37,7 @@ let projects = [
   },
   // Card 4
   {
-    imgURL: "images/Project-Cards.png",
+    imgURL: "/images/Project-Cards.png",
     imgALT: "Project cards",
     title: "Project Cards",
     techStack: "HTML/CSS",
@@ -48,7 +48,7 @@ let projects = [
   },
   // Card 5
   {
-    imgURL: "images/sneaker-site.png",
+    imgURL: "/images/sneaker-site.png",
     imgALT: "Sneaker site",
     title: "Sneaker Site",
     techStack: "HTML/CSS",
@@ -59,7 +59,7 @@ let projects = [
   },
   // Card 6
   {
-    imgURL: "images/python_functions.png",
+    imgURL: "/images/python_functions.png",
     imgALT: "Holiday cost calculator",
     title: "Total Cost Calculator",
     techStack: "Python",
@@ -70,7 +70,7 @@ let projects = [
   },
   // Card 7
   {
-    imgURL: "images/fibonacci_task.png",
+    imgURL: "/images/fibonacci_task.png",
     imgALT: "Fibonacci sequence program",
     title: "Fibonacci Sequence",
     techStack: "Python",
@@ -81,7 +81,7 @@ let projects = [
   },
   // Card 8
   {
-    imgURL: "images/bmi-calculator.png",
+    imgURL: "/images/bmi-calculator.png",
     imgALT: "BMI Calculator",
     title: "BMI Calculator",
     techStack: "Python",
@@ -92,7 +92,7 @@ let projects = [
   },
   // Card 9
   {
-    imgURL: "images/currency-convertor-py.png",
+    imgURL: "/images/currency-convertor-py.png",
     imgALT: "Currency Convertor",
     title: "Currency Convertor",
     techStack: "Python",
@@ -103,14 +103,13 @@ let projects = [
   },
   // Card 10
   {
-    imgURL: "images/js-calculator.png",
-    imgALT: "JavaScript Calculator",
-    title: "Left Hand Calculator",
+    imgURL: "/images/pokedex.png",
+    imgALT: "Pokédex API",
+    title: "Pokédex API",
     techStack: "JavaScript",
-    description:
-      "A calculator developed for left-handed people to make for a more convenient user experience.",
-    githubURL: "https://github.com/Zoe8888/js-calculator",
-    liveProjectURL: "https://dazzling-easley-d97419.netlify.app",
+    description: "An API that displays various Pokémon and facts about them.",
+    githubURL: "https://github.com/Zoe8888/pokedex-api",
+    liveProjectURL: "https://the-pokedex-api.netlify.app/",
   },
 ];
 
