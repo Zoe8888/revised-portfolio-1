@@ -2,18 +2,18 @@ function toggleNavbar() {
   document.getElementsByClassName("navbar-links")[0].classList.toggle("active");
 }
 
-let i = 0;
-let text = "- aspiring frontend developer -";
-let speed = 80;
+// let i = 0;
+// let text = "";
+// let speed = 50;
 
-function typing() {
-  if (i < text.length) {
-    document.getElementsByClassName("landing-description").innerHTML +=
-      text.charAt(i);
-    i++;
-    setTimeout(typing, speed);
-  }
-}
+// function typing() {
+//   if (i < text.length) {
+//     document.getElementByClassName("landing-description").innerHTML +=
+//       text.charAt(i);
+//     i++;
+//     setTimeout(typing, speed);
+//   }
+// }
 
 let projects = [
   // Card 1

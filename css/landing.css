@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #a1d286;
+  background-color: #a4daa4;
   font-family: "Roboto Mono", sans-serif;
   color: rgb(90, 90, 90);
   overflow-x: hidden;
@@ -30,11 +30,12 @@ body {
 }
 
 #landing {
-  background-color: #a1d286;
+  background-color: #a4daa4;
   height: auto;
   display: grid;
   place-items: center;
   margin-top: 3%;
+  padding-bottom: 5%;
 }
 
 .landing-img {
