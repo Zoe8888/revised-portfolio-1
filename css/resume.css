@@ -198,6 +198,13 @@
   }
 }
 
+@media screen and (max-width: 921px) {
+  .soft {
+    margin-left: 0%;
+    margin-top: -3%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .resume-top,
   .resume-bottom {

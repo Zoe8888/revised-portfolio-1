@@ -30,8 +30,8 @@ body {
 }
 
 #landing {
-  background-color: #a4daa4;
-  height: auto;
+  /* background-color: #a4daa4; */
+  height: 100vh;
   display: grid;
   place-items: center;
   margin-top: 3%;
