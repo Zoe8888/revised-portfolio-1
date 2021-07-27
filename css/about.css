@@ -206,6 +206,7 @@
   margin: 2% 0;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
 }
 
 .testimonial-1,
@@ -301,8 +302,7 @@
     width: 80vw;
   }
 
-  .about-section,
-  .fun {
+  .about-section {
     margin: 2% 10% auto;
   }
 
@@ -335,5 +335,9 @@
 
   #testimonial-section {
     padding: 2%;
+  }
+
+  .testimonials {
+    font-size: 1.8rem;
   }
 }
