@@ -341,3 +341,13 @@
     font-size: 1.8rem;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .general {
+    width: 235px;
+  }
+
+  #coding-box {
+    margin-top: -10%;
+  }
+}

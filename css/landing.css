@@ -135,3 +135,14 @@ body {
     margin-bottom: 22%;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .landing-img {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .landing-description {
+    font-size: 0.9rem;
+  }
+}
