@@ -2,18 +2,9 @@ function toggleNavbar() {
   document.getElementsByClassName("navbar-links")[0].classList.toggle("active");
 }
 
-// let i = 0;
-// let text = "";
-// let speed = 50;
-
-// function typing() {
-//   if (i < text.length) {
-//     document.getElementByClassName("landing-description").innerHTML +=
-//       text.charAt(i);
-//     i++;
-//     setTimeout(typing, speed);
-//   }
-// }
+window.addEventListener("load", () => {
+  document.querySelector(".loader-wrapper").classList.add("hide");
+});
 
 let projects = [
   // Card 1

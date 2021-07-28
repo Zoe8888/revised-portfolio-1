@@ -249,6 +249,10 @@
     width: 80vw;
   }
 
+  .tech {
+    padding: 10%;
+  }
+
   .soft {
     margin-bottom: 2%;
   }

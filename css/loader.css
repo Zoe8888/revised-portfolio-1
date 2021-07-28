@@ -1,0 +1,90 @@
+.loader-wrapper {
+  z-index: 1001;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(90, 90, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-wrapper.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loader {
+  font-family: monospace;
+  position: relative;
+  top: 10%;
+  margin: 0 auto;
+  border-right: 2px solid rgba(90, 90, 90, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+p::before,
+p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+p::after {
+  width: 1px;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  animation: blink 0.7s steps(14) infinite,
+    typing 2.5s steps(14) 1s infinite alternate;
+}
+
+p::before {
+  bottom: 0;
+  top: 0;
+  background: #5a5a5a;
+  animation: typing 2.5s steps(14) 1s infinite alternate;
+}
+
+@keyframes typing {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 1;
+  }
+}
+
+.typing {
+  animation: typewriter 5s steps(50) 1s 1 normal both,
+    blinkTextCursor 200ms steps(50) infinite normal;
+}
+
+/* @keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 9em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(90, 90, 90, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+} */

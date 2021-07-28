@@ -119,6 +119,14 @@ html {
     gap: 30px;
     font-size: 20px;
   }
+
+  .navbar-button {
+    width: 2vw;
+    height: 2vw;
+    font-size: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -141,6 +149,7 @@ html {
     font-size: 10px;
     border-radius: 10px;
     text-align: center;
+    z-index: 1000;
   }
 }
 
