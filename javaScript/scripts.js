@@ -51,16 +51,16 @@ let projects = [
     liveProjectURL: "https://frosty-williams-000028.netlify.app/",
   },
   // Card 5
-  {
-    imgURL: "/images/sneaker-site.png",
-    imgALT: "Sneaker site",
-    title: "Sneaker Site",
-    techStack: "HTML/CSS",
-    description:
-      "An ecommerce website which was made using Owl Carousel and Formspree.",
-    githubURL: "https://github.com/Zoe8888/sneaker-website",
-    liveProjectURL: "https://dreamy-bhabha-cc874e.netlify.app",
-  },
+  // {
+  //   imgURL: "/images/sneaker-site.png",
+  //   imgALT: "Sneaker site",
+  //   title: "Sneaker Site",
+  //   techStack: "HTML/CSS",
+  //   description:
+  //     "An ecommerce website which was made using Owl Carousel and Formspree.",
+  //   githubURL: "https://github.com/Zoe8888/sneaker-website",
+  //   liveProjectURL: "https://dreamy-bhabha-cc874e.netlify.app",
+  // },
   // Card 6
   {
     imgURL: "/images/python_functions.png",
@@ -73,16 +73,16 @@ let projects = [
     liveProjectURL: "https://replit.com/@Zoe8888/pythonfunctions#main.py",
   },
   // Card 7
-  {
-    imgURL: "/images/fibonacci_task.png",
-    imgALT: "Fibonacci sequence program",
-    title: "Fibonacci Sequence",
-    techStack: "Python",
-    description:
-      "A PyCharm program that calculates the first 20 terms in the Fibonacci sequence.",
-    githubURL: "https://github.com/Zoe8888/fibonacci_task",
-    liveProjectURL: "https://replit.com/@Zoe8888/fibonaccitask#main.py",
-  },
+  // {
+  //   imgURL: "/images/fibonacci_task.png",
+  //   imgALT: "Fibonacci sequence program",
+  //   title: "Fibonacci Sequence",
+  //   techStack: "Python",
+  //   description:
+  //     "A PyCharm program that calculates the first 20 terms in the Fibonacci sequence.",
+  //   githubURL: "https://github.com/Zoe8888/fibonacci_task",
+  //   liveProjectURL: "https://replit.com/@Zoe8888/fibonaccitask#main.py",
+  // },
   // Card 8
   {
     imgURL: "/images/bmi-calculator.png",

@@ -11,10 +11,10 @@
   align-items: center;
 }
 
-.loader-wrapper.hide {
+/* .loader-wrapper.hide {
   opacity: 0;
   pointer-events: none;
-}
+} */
 
 .loader {
   font-family: monospace;
@@ -29,28 +29,28 @@
   transform: translateY(-50%);
 }
 
-p::before,
-p::after {
+.loader::before,
+.loader::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
 }
 
-p::after {
+.loader::after {
   width: 1px;
   height: 100%;
   background: black;
   opacity: 0;
-  animation: blink 0.7s steps(14) infinite,
-    typing 2.5s steps(14) 1s infinite alternate;
+  animation: blink 0.7s steps(16) infinite,
+    typing 2.5s steps(16) 1s infinite alternate;
 }
 
-p::before {
+.loader::before {
   bottom: 0;
   top: 0;
   background: #5a5a5a;
-  animation: typing 2.5s steps(14) 1s infinite alternate;
+  animation: typing 2.5s steps(16) 1s infinite alternate;
 }
 
 @keyframes typing {
@@ -65,10 +65,10 @@ p::before {
   }
 }
 
-.typing {
+/* .typing {
   animation: typewriter 5s steps(50) 1s 1 normal both,
     blinkTextCursor 200ms steps(50) infinite normal;
-}
+} */
 
 /* @keyframes typewriter {
   from {
