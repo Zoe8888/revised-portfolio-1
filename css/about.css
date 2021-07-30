@@ -37,8 +37,6 @@
   flex-direction: row;
   justify-content: center;
   background: #a4daa4;
-  backdrop-filter: blur(13.5px);
-  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   border: 1px solid rgb(90, 90, 90);
   height: 100%;
@@ -87,8 +85,6 @@
   flex-direction: column;
   text-align: center;
   background: #a4daa4;
-  backdrop-filter: blur(13.5px);
-  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   border: 1px solid rgb(90, 90, 90);
   padding: 3%;
@@ -101,8 +97,6 @@
   flex-direction: column;
   text-align: center;
   background: #a4daa4;
-  backdrop-filter: blur(13.5px);
-  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   border: 1px solid rgb(90, 90, 90);
   padding: 3%;
@@ -114,8 +108,6 @@
   flex-direction: column;
   text-align: center;
   background: #a4daa4;
-  backdrop-filter: blur(13.5px);
-  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   border: 1px solid rgb(90, 90, 90);
   padding: 3%;
@@ -141,8 +133,6 @@
   flex-direction: column;
   align-items: center;
   background: #a4daa4;
-  backdrop-filter: blur(13.5px);
-  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   border: 1px solid rgb(90, 90, 90);
   margin-top: 4vh;
@@ -195,8 +185,6 @@
   justify-content: center;
   align-self: center;
   height: 100vh;
-  backdrop-filter: blur(13.5px);
-  -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
   margin-top: 1%;
   height: 100%;

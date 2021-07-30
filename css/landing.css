@@ -33,14 +33,6 @@ body {
   margin-top: 5%;
 }
 
-/* .landing-description {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  text-align: center;
-} */
-
 .line {
   position: relative;
   top: 50%;
@@ -56,8 +48,8 @@ body {
 }
 
 .typing-effect {
-  animation: typewriter 5s steps(50) 1s 1 normal both,
-    blinkTextCursor 500ms steps(50) infinite normal;
+  animation: typewriter 5s steps(31) 0.5s infinite alternate,
+    blinkTextCursor 500ms steps(31) infinite alternate;
 }
 
 @keyframes typewriter {
@@ -135,7 +127,7 @@ body {
   .landing-header {
     font-size: 1.7rem;
     margin-bottom: 2%;
-    margin-top: 30%;
+    margin-top: 20%;
   }
   .landing-description {
     font-size: 1.3rem;
