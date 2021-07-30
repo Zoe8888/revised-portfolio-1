@@ -115,15 +115,8 @@
   gap: 15px;
 }
 
-.bio {
-  margin-bottom: 2%;
-}
-
+.bio,
 .hobbies {
-  margin-bottom: 2%;
-}
-
-.coding {
   margin-bottom: 2%;
 }
 
@@ -145,7 +138,6 @@
 .fun-fact {
   text-transform: uppercase;
   font-size: 30px;
-  font-weight: 700;
 }
 
 .fun h3 {
@@ -194,7 +186,6 @@
   margin: 2% 0;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
 }
 
 .testimonial-1,
@@ -267,11 +258,19 @@
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 958px) {
   #about-box,
   #hobbies-box,
   #coding-box {
     width: 80vw;
+  }
+
+  #hobbies-box {
+    margin-top: -2.5%;
+  }
+
+  #coding-box {
+    margin-top: -1.5%;
   }
 }
 
@@ -309,16 +308,33 @@
   }
 }
 
+@media screen and (max-width: 411px) {
+  #coding-box {
+    margin-top: -6%;
+  }
+}
+
 @media screen and (max-width: 360px) {
   .general {
     width: 286px;
+    margin-top: 4%;
   }
-  .about-header {
-    margin: 2% 10% auto;
+
+  #about-box,
+  #hobbies-box {
+    margin-top: 1%;
+  }
+
+  #coding-box {
+    margin-top: -6%;
   }
 
   .fun {
-    margin: 2% 38px auto;
+    margin-top: 3%;
+  }
+
+  #testimonial-section {
+    margin-top: 5%;
   }
 
   #testimonial-section {
@@ -330,12 +346,22 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .general {
+    width: 253px;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .general {
     width: 235px;
   }
 
+  #about-box {
+    margin-top: 2%;
+  }
+
   #coding-box {
-    margin-top: -10%;
+    margin-top: -8%;
   }
 }
