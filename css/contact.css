@@ -13,36 +13,38 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   margin-left: 3%;
+  gap: 20px;
 }
 
-.email-conatiner {
+.email-container {
   display: flex;
-  gap: 10px;
-  margin-bottom: 10%;
+  flex-direction: row;
+  align-items: center;
 }
 
-.phone {
-  margin-right: 10px;
+.linkedin-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 83%;
 }
 
-.at {
+.at,
+.link {
   margin-right: 1%;
 }
 
-.num {
-  margin-bottom: 10%;
-}
-
-.num a,
-.email {
+.email,
+.linkedin {
   color: rgb(90, 90, 90);
 }
 
-.num a:hover,
-.email:hover {
+.email:hover,
+.linkedin:hover {
   text-decoration: none;
   color: white;
 }
@@ -147,15 +149,12 @@ label {
   margin-bottom: 2%;
   top: 30%;
   position: relative;
+  gap: 10px;
 }
 
 .footer-icons a:hover {
   color: #a4daa4;
   transition: 0.3s ease-in-out;
-}
-
-.link {
-  margin-right: 2%;
 }
 
 .ghub {
@@ -194,7 +193,6 @@ label {
 }
 
 @media screen and (max-width: 971px) {
-  .num,
   .mail {
     display: flex;
     flex-direction: column;
