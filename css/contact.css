@@ -35,7 +35,7 @@
 
 .at,
 .link {
-  margin-right: 1%;
+  margin-right: 3%;
 }
 
 .email,
@@ -95,6 +95,7 @@ label {
   border: none;
   outline: none;
   text-align: center;
+  font-weight: 800;
 }
 
 .contact-input::placeholder {
@@ -177,6 +178,79 @@ label {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  #contact-sec {
+    height: 120vw;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .contact-top {
+    margin: 5% 0;
+    gap: 0;
+  }
+
+  .contact-header {
+    font-size: 4rem;
+  }
+
+  .at,
+  .link {
+    font-size: 2rem;
+  }
+
+  .email,
+  .linkedin {
+    font-size: 3rem;
+  }
+
+  .linkedin-container {
+    width: 47%;
+    margin: 5% 0;
+  }
+
+  .contact-form {
+    width: 70vw;
+    height: 50vh;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-input {
+    width: 50vw;
+    font-size: 1.2rem;
+  }
+
+  .contact-input::placeholder {
+    font-size: 2rem;
+  }
+
+  .footer {
+    height: 10vw;
+  }
+
+  .footer-icons {
+    top: 12%;
+  }
+
+  .submit-button {
+    color: white;
+    background-color: #a4daa4;
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .contact-container {
     display: flex;
@@ -216,10 +290,6 @@ label {
     padding-bottom: 10%;
   }
 
-  .email {
-    font-size: 1.8rem;
-  }
-
   .contact-form {
     margin: 10% 0;
     width: 80vw;
@@ -228,50 +298,65 @@ label {
   .contact-input {
     width: 60vw;
   }
-
-  .footer {
-    height: 5vh;
-  }
-
-  .footer-icons {
-    margin-right: 1%;
-    margin-bottom: 4%;
-  }
 }
 
-@media screen and (max-width: 400px) {
-  .contact-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+@media screen and (max-width: 768px) {
+  #contact-sec {
+    height: auto;
   }
 
-  .contact-header {
-    padding-bottom: 4%;
+  .contact-top {
+    margin: 2% 0;
   }
 
-  .email {
+  .at,
+  .link {
     font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .email a:hover {
-    text-decoration: none;
-    color: white;
   }
 
   .contact-form {
-    width: 320px;
-    margin: 10% 0;
+    height: 55vh;
   }
 
-  .contact-input {
-    width: 250px;
+  #form {
+    gap: 10px;
   }
 
-  .submit-button {
-    background: #a4daa4;
-    color: rgb(90, 90, 90);
+  .contact-input,
+  .contact-input::placeholder {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contact-header {
+    font-size: 2.5rem;
+  }
+
+  .at, .link {
+    font-size: 1rem;
+  }
+
+  .email, .linkedin {
+    font-size: 2rem;
+  }
+
+  #form {
+    gap: 5px;
+  }
+
+  .contact-input,
+  .contact-input::placeholder {
+    font-size: 1rem;
+  }
+
+  .footer-name {
+    font-size: 1rem;
+  }
+
+  .ghub,
+  .cpen {
+    font-size: 1.5rem;
   }
 }
 
@@ -286,31 +371,21 @@ label {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .footer {
-    width: 90%;
-  }
-
-  .footer-name {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
-
 @media screen and (max-width: 414px) {
-  .email-conatiner {
-    display: flex;
-    flex-direction: column;
+  .email, .linkedin {
+    font-size: 1.5rem;
+  }
+
+  .contact-top {
+    margin: 0;
+  }
+
+  .contact-form {
+    height: 50vh;
   }
 
   .footer {
     height: 8vh;
-    margin-top: 4%;
-  }
-
-  .footer-name {
-    font-size: 1.3rem;
-    margin-top: 7%;
   }
 
   .footer-icons {
@@ -319,11 +394,23 @@ label {
   }
 }
 
-@media screen and (max-width: 375px) {
-  .email-conatiner {
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 400px) {
+  .contact-form {
+    height: 60vh;
   }
+
+  .footer-icons {
+    gap: 0;
+    margin-right: 16%;
+  }
+
+  .ghub,
+  .cpen {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
 
   .email {
     font-size: 1.5rem;

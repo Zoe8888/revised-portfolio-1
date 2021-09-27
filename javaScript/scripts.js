@@ -35,7 +35,7 @@ let projects = [
     title: "Testimonial Slider",
     techStack: "HTML/CSS",
     description:
-      "Glassmorphic Testimonial Slider created using Owl Carousel and Glassmorphism.",
+      "A testimonial slider created using Owl Carousel and Glassmorphism.",
     githubURL: "https://github.com/Zoe8888/testimonial_selector",
     liveProjectURL: "https://dazzling-lovelace-63ad98.netlify.app",
   },
@@ -65,7 +65,7 @@ let projects = [
   {
     imgURL: "/images/python_functions.png",
     imgALT: "Holiday cost calculator",
-    title: "Total Cost Calculator",
+    title: "Cost Calculator",
     techStack: "Python",
     description:
       "A PyCharm program that calculates the total cost of a holiday.",
@@ -90,7 +90,7 @@ let projects = [
     title: "BMI Calculator",
     techStack: "Python",
     description:
-      "A PyCharm program that calculates the users body mass index and their ideal BMI.",
+      "A program that calculates a users body mass index and their ideal BMI.",
     githubURL: "https://github.com/Zoe8888/bmi-calculator",
     liveProjectURL: "https://replit.com/@Zoe8888/bmi-calculator#main.py",
   },
@@ -101,7 +101,7 @@ let projects = [
     title: "Currency Convertor",
     techStack: "Python",
     description:
-      "A PyCharm program that takes any currency the user desires and converts it into US Dollars.",
+      "A program that converts a currency into US Dollars.",
     githubURL: "https://github.com/Zoe8888/currency-converter",
     liveProjectURL: "https://replit.com/@Zoe8888/currency-converter#main.py",
   },
@@ -111,7 +111,7 @@ let projects = [
     imgALT: "Pokédex API",
     title: "Pokédex API",
     techStack: "JavaScript",
-    description: "An API that displays various Pokémon and facts about them.",
+    description: "An API that displays various Pokémon as well as facts about them.",
     githubURL: "https://github.com/Zoe8888/pokedex-api",
     liveProjectURL: "https://the-pokedex-api.netlify.app/",
   },

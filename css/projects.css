@@ -146,33 +146,134 @@
   margin: 2% 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .card-container-heading {
+    font-size: 4.5rem;
+  }
+
+  .category-buttons,
+  .card-heading {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 35vw;
+    height: 40vh;
+  }
+
+  .card-image {
+    height: 15vh;
+  }
+
+  .card-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .card-description {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    font-size: 1.4rem
+  }
+}
+
 @media screen and (max-width: 970px) {
   .card {
     width: 70vw;
   }
 }
 
-@media screen and (max-width: 447px) {
+@media screen and (max-width: 768px) {
+  .card {
+    height: 60vh;
+  }
+
+  .card-image {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .card-container-heading {
+    font-size: 3.5rem;
+  }
+
+  .category-buttons,
+  .card-description {
+    font-size: 1.3rem;
+  }
+
   .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5% 3%;
-    margin-top: 3%;
+    width: 100vw;
+  }
+
+  .card {
+    height: 65vh;
+  }
+
+  .card-heading {
+    font-size: 1.8rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .button {
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 414px) {
-  .card {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+  .card-container-heading {
+    font-size: 3rem;
+  }
+
+  .card-description {
+    font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .card-details {
-    padding: 20px 0;
+@media screen and (max-width: 375px) {
+  .card-heading {
+    font-size: 1.5rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card-container-heading {
+    font-size: 2.5rem;
+  }
+
+  .category-buttons {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-container-heading {
+    font-size: 2rem;
+  }
+
+  .category-buttons {
+    font-size: 1rem;
+  }
+
+  .card-heading {
+    font-size: 1.3rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.15rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
   }
 }
 
@@ -180,7 +281,6 @@
   .card {
     width: 20vw;
     align-self: center;
-    margin-left: 10%;
   }
 }
 

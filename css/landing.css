@@ -28,6 +28,7 @@ body h3 {
 }
 
 .landing-img {
+  object-fit: cover;
   height: 100%;
   width: 45vw;
 }
@@ -38,6 +39,7 @@ body h3 {
   padding: 10px;
   font-weight: 700;
   margin-top: 5%;
+  font-size: 2rem;
 }
 
 .line {
@@ -78,10 +80,23 @@ body h3 {
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1024px) {
+  #landing {
+    height: 100%;
+  }
+
   .landing-img {
-    width: 45vw;
-    height: 45vh;
+    height: 58vh;
+    margin: 13% 0;
+  }
+
+  .landing-header {
+    font-size: 5rem;
+    margin-bottom: 3%;
+  }
+
+  .landing-description {
+    font-size: 3rem;
   }
 }
 
@@ -94,12 +109,12 @@ body h3 {
   }
 
   .landing-img {
-    margin-top: 5%;
     width: auto;
     height: 60vh;
   }
+
   .landing-header {
-    margin-bottom: 2%;
+    font-size: 4rem;
   }
 }
 
@@ -113,26 +128,49 @@ body h3 {
 
   .landing-img {
     width: auto;
-    height: 50vh;
+    height: 60vh;
+    margin: 8% 0;
+  }
+
+  .landing-header {
+    font-size: 4rem;
+  }
+
+  .landing-description {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .landing-img {
+    width: auto;
+    height: 55vh;
+    margin: 9% 0;
+  }
+
+  .landing-header {
+    font-size: 3rem;
+  }
+  
+  .landing-description {
+    font-size: 1.7rem;
   }
 }
 
 @media screen and (max-width: 414px) {
   #landing {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    gap: 5px;
   }
 
   .landing-img {
-    width: auto;
-    height: 45vh;
-    margin: 27%;
+    margin: 22% 0;
   }
+
   .landing-header {
-    font-size: 1.7rem;
-    margin-bottom: 3%;
+    font-size: 2rem;
+    margin-bottom: 2%;
   }
+
   .landing-description {
     font-size: 1.3rem;
   }
@@ -140,13 +178,14 @@ body h3 {
 
 @media screen and (max-width: 375px) {
   .landing-img {
-    width: auto;
+    margin: 31% 0;
     height: 50vh;
   }
+
   .landing-header {
-    font-size: 1.5rem;
-    margin-bottom: 3%;
+    margin-bottom: 6%;
   }
+
   .landing-description {
     font-size: 1.2rem;
     margin-bottom: 2%;
@@ -160,8 +199,7 @@ body h3 {
   }
 
   .landing-img {
-    height: 50vh;
-    width: auto;
+    margin: 18% 0;
   }
 
   .landing-header {
@@ -174,9 +212,9 @@ body h3 {
 }
 
 @media screen and (max-width: 320px) {
-  #landing {
-    display: flex;
-    gap: 2px;
+  .landing-header {
+    margin-bottom: 2%;
+    font-size: 1.5rem;
   }
 
   .landing-description {
@@ -202,4 +240,14 @@ body h3 {
   .landing-description {
     font-size: 0.97rem;
   }
+}
+
+@media screen and (max-width: 280px) {
+  .landing-img {
+    margin: 25% 0;
+  }
+
+  .landing-description {
+    font-size: 0.9rem;
+}
 }

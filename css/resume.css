@@ -187,13 +187,28 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  #resume p {
+    font-size: 1.3rem;
+  }
+
+  .right,
+  .tech {
+    margin-top: 3%;
+  }
+
+  .resume-bottom h3 {
+    font-size: 1.4rem;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .tech {
     height: 100%;
   }
 }
 
-@media screen and (max-width: 970px) {
+/* @media screen and (max-width: 970px) {
   .resume-top,
   .resume-bottom {
     display: flex;
@@ -216,7 +231,7 @@
   .soft {
     margin-bottom: 2%;
   }
-}
+} */
 
 @media screen and (max-width: 932px) {
   .soft {
@@ -226,7 +241,7 @@
   }
 }
 
-@media screen and (max-width: 925px) {
+/* @media screen and (max-width: 925px) {
   .right,
   .soft,
   .tech {
@@ -235,9 +250,9 @@
 
   .soft {
     margin-left: 0%;
-    margin-top: -3%;
+    margin-top: 2%;
   }
-}
+} */
 
 @media screen and (max-width: 800px) {
   .resume-top,
@@ -260,7 +275,27 @@
   }
 
   .soft {
-    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .soft {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .right,
+  .tech {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #resume p,
+  .resume-bottom h3 {
+    font-size: 1.2rem;
   }
 }
 
@@ -278,5 +313,31 @@
     margin-top: 2%;
     padding: 2% 5%;
     flex: 0 1 79%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #resume p,
+  .resume-bottom h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .resume-top h3 {
+    font-size: 1.3rem;
+  }
+
+  .right span {
+    font-size: 1.1rem;
+  }
+
+  .resume-bottom h2 {
+    font-size: 1.5rem;
+  }
+
+  #resume p,
+  .resume-bottom h3 {
+    font-size: 1rem;
   }
 }
