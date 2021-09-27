@@ -209,8 +209,12 @@ label {
     font-size: 3rem;
   }
 
+  .email-container {
+    justify-content: center;
+  }
+
   .linkedin-container {
-    width: 47%;
+    width: 48%;
     margin: 5% 0;
   }
 
@@ -369,6 +373,10 @@ label {
   .contact-input {
     width: 60vw;
   }
+
+  .link {
+    margin-right: 5%;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -411,18 +419,29 @@ label {
 }
 
 @media screen and (max-width: 375px) {
+  .contact-top {
+    margin: 5% 0;
+  }
+
+  .contact-header {
+    margin: 0;
+  }
 
   .email {
     font-size: 1.5rem;
   }
 
-  .footer {
-    height: 7vh;
+  .linkedin-container {
+    width: 49%;
   }
 
-  .footer-name {
-    font-size: 1.1rem;
-    margin-top: 7%;
+  .contact-form {
+    height: 43vh;
+    margin-bottom: 18%;
+  }
+
+  .footer {
+    height: 7vh;
   }
 
   .footer-icons {
@@ -432,19 +451,17 @@ label {
 }
 
 @media screen and (max-width: 360px) {
-  .email-conatiner {
-    display: flex;
-    flex-direction: column;
+  .linkedin-container {
+    width: 51%;
+    margin: 0;
   }
 
-  .footer {
-    display: flex;
-    flex-direction: row;
-    height: 8vh;
+  #form {
+    gap: 0;
   }
 
-  .footer-name {
-    font-size: 1.07rem;
+  .contact-form {
+    height: 50vh;
   }
 
   .footer-icons {
@@ -453,7 +470,35 @@ label {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
+  .contact-header {
+    font-size: 2rem;
+  }
+
+  .at, .link {
+    font-size: 0.7rem;
+    margin-top: 4%;
+  }
+
+  .email, .linkedin {
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    height: 45vh;
+  }
+
+  .contact-input, .contact-input::placeholder {
+    font-size: 0.7rem;
+  }
+
+  .footer-icons {
+    margin-right: 33%;
+  }
+}
+
+/* @media screen and (max-width: 300px) {
+  
   .email {
     font-size: 1.4rem;
   }
@@ -479,5 +524,42 @@ label {
   .footer-icons {
     margin-right: 38%;
     margin-top: 2%;
+  }
+} */
+
+
+@media screen and (max-width: 280px) {
+  .contact-top {
+    margin: 10% 0;
+  }
+
+  .contact-header {
+    font-size: 1.7rem;
+  }
+
+  #form {
+    gap: 5px;
+  }
+
+  .contact-form {
+    height: 44vh;
+    margin-bottom: 20%;
+  }
+
+  .contact-input {
+    font-size: 0.8rem;
+    margin-top: 2%;
+  }
+
+  .contact-input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .footer-name {
+    font-size: 0.8rem;
+  }
+
+  .footer-icons {
+    margin-right: 43%;
   }
 }
